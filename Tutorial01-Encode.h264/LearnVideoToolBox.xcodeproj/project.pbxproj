@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9AD457D23010A8E009D2808 /* MYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9AD457C23010A8E009D2808 /* MYViewController.m */; };
 		FD315B841D77F89E000CC96D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315B831D77F89E000CC96D /* main.m */; };
 		FD315B871D77F89E000CC96D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315B861D77F89E000CC96D /* AppDelegate.m */; };
 		FD315B8A1D77F89E000CC96D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD315B891D77F89E000CC96D /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9AD457B23010A8E009D2808 /* MYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MYViewController.h; path = "../../../../../../../System/Volumes/Data/Users/dev-apple/Documents/Test/LearnVideoToolBox/Tutorial01-Encode.h264/LearnVideoToolBox/MYViewController.h"; sourceTree = "<group>"; };
+		D9AD457C23010A8E009D2808 /* MYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MYViewController.m; path = "../../../../../../../System/Volumes/Data/Users/dev-apple/Documents/Test/LearnVideoToolBox/Tutorial01-Encode.h264/LearnVideoToolBox/MYViewController.m"; sourceTree = "<group>"; };
 		FD315B7F1D77F89E000CC96D /* LearnVideoToolBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnVideoToolBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD315B831D77F89E000CC96D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD315B851D77F89E000CC96D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +66,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9AD457A23010A4D009D2808 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D9AD457B23010A8E009D2808 /* MYViewController.h */,
+				D9AD457C23010A8E009D2808 /* MYViewController.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
 		FD315B761D77F89E000CC96D = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +101,7 @@
 				FD315B861D77F89E000CC96D /* AppDelegate.m */,
 				FD315B881D77F89E000CC96D /* ViewController.h */,
 				FD315B891D77F89E000CC96D /* ViewController.m */,
+				D9AD457A23010A4D009D2808 /* Class */,
 				FD315B8B1D77F89E000CC96D /* Main.storyboard */,
 				FD315B8E1D77F89E000CC96D /* Assets.xcassets */,
 				FD315B901D77F89E000CC96D /* LaunchScreen.storyboard */,
@@ -176,6 +189,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -217,6 +231,7 @@
 			files = (
 				FD315B8A1D77F89E000CC96D /* ViewController.m in Sources */,
 				FD315B871D77F89E000CC96D /* AppDelegate.m in Sources */,
+				D9AD457D23010A8E009D2808 /* MYViewController.m in Sources */,
 				FD315B841D77F89E000CC96D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,6 +421,7 @@
 				FD315BA31D77F89E000CC96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD315BA41D77F89E000CC96D /* Build configuration list for PBXNativeTarget "LearnVideoToolBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +430,7 @@
 				FD315BA61D77F89E000CC96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
